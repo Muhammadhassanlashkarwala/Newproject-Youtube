@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: #f2f2f2;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #333;
+    z-index: 100;
+}
+.container-2{
+    display: flex;
+    align-items: center;
+}
+.navbar{
+    justify-content: space-between;
+}
+.container{
+    /* background: red; */
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+.navbar-links{
+    list-style: none;
+    gap: 20px;
+}
+.navbar a{
+    padding: 20px 0;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.3s;
+}
+.navbar a:hover{
+    color: #ddd;
+}
+.homepage{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/home-page.avif);
+    background-position: center;
+    background-size: cover;
+}
+.homepage::before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+}
+.homepage .content{
+    position: relative;
+    height: 85%;
+    flex-direction: column;
+    justify-content: center;
+}
+.homepage .text{
+    margin-bottom: 50px;
+    color: #fff;
+    text-align: center;
+}
+.homepage .text h1{
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.homepage a{
+    color: #333;
+    background: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    box-shadow: rgba(0, 0, 0, 0.3);
+    font-size: 18px;
+    transition: 0.3s;
+}
+.homepage a:hover{
+    color: #fff;
+    background: rgba(255, 255, 255, 0.3);
+}
+.services{
+    margin-top: 80px;
+}
+.service-text{
+    text-align: center;
+}
+.services h2{
+    font-size: 2rem;
+}
+.services .cards{
+    margin-top: 50px;
+    text-align: center;
+}
+.services .card{
+    width: calc(100% / 3 - 80px );
+    text-align: center;
+    list-style: none;
+    background: #fff;
+    padding: 40px 15px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px;
+}
+.services .card img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.services .card p{
+    margin-top: 5px;
+    padding: 0 20px;
+}

@@ -107,11 +107,11 @@ header{
     flex-wrap: wrap;
 }
 .services .card{
-    width: calc(100% / 3 - 80px );
+    width: calc(100% / 3 - 110px );
     text-align: center;
     list-style: none;
     background: #fff;
-    padding: 40px 15px;
+    padding: 60px 15px;
     border-radius: 5px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
     margin-bottom: 20px;
@@ -126,6 +126,8 @@ header{
     margin-top: 5px;
     padding: 0 20px;
 }
+
+/* Portfolio Start */
 .portfolio{
     margin-top: 80px;
 }
@@ -136,6 +138,57 @@ header{
     margin-bottom: 20px;
 }
 .portfolio .card p{
-    margin-top: 5px;
+    margin-top: 15px;
     padding: 0 20px;
+}
+.portfolio .card h2{
+    margin-top: 25px;
+}
+.portfolio .cards{
+    margin-top: 50px;
+    text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.portfolio .card{
+    width: calc(100% / 3 - 110px );
+    text-align: center;
+    list-style: none;
+    background: #fff;
+    padding: 0px 0px 0px 0px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px;    
+}
+.portfolio .card img{
+    height: 240px;
+    width: 100%;
+    border-radius: 8px 8px 0  0;
+}
+.portfolio p{
+    margin-bottom: 60px;
+}
+
+
+/* About Start */
+
+.about{
+    margin-top: 80px;
+}
+.about .about-info{
+    margin-top: 30px;
+}
+.about .row{
+    padding: 0 10px;
+}
+.about h2{
+    margin: 20px 0 10px 0;
+}
+.about ul{
+    padding-left: 20px;
+}
+
+/* COntact Start */
+.contact{
+    margin-top: 80px;
 }

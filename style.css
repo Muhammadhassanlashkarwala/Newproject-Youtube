@@ -103,6 +103,8 @@ header{
 .services .cards{
     margin-top: 50px;
     text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .services .card{
     width: calc(100% / 3 - 80px );
@@ -121,6 +123,19 @@ header{
     margin-bottom: 20px;
 }
 .services .card p{
+    margin-top: 5px;
+    padding: 0 20px;
+}
+.portfolio{
+    margin-top: 80px;
+}
+.portfolio .card img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.portfolio .card p{
     margin-top: 5px;
     padding: 0 20px;
 }
